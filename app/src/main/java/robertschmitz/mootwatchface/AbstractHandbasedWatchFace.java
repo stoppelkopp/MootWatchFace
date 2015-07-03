@@ -32,7 +32,6 @@ abstract public class AbstractHandbasedWatchFace extends AbstractWatchFace imple
 
     @Override
     public void renderWatchFace(Time time, Canvas canvas, Rect bounds, boolean ambientMode) {
-ambientMode = true;
         mAmbientMode = ambientMode;
 
         int width = bounds.width();
